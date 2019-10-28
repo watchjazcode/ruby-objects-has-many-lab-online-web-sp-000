@@ -13,7 +13,7 @@ class Song
     @@all << self
   end
  
-  def self.all
+  def self.all #accesses class variable
     @@all
   end
 
